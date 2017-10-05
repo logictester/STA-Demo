@@ -1,0 +1,29 @@
+.myButton {
+    display: inline-block;
+    width: 200px;
+    text-align: center;
+    vertical-align: middle;
+    padding: 16px 60px;
+    border-color: #6c286b;
+    border-radius: 2px;
+    background-color: #6c286b;
+    font: normal normal normal 16px Helvetica;
+    color: #ffffff;
+    text-decoration: none;
+    text-transform: uppercase
+    
+}
+.myButton:hover {
+    border: #5c1a58;
+    background: #5c1a58;
+    color: #ffffff;
+  
+}
+.myButton:active {
+    background-color: #6c286b;
+    border-color: #6c286b;
+    text-transform: uppercase
+}
+.myButton:focus {
+    text-transform: uppercase
+}
